@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: rgba(205, 187, 173, 255);
+  min-height: 100vh;
+  border: 10px solid black;
+}
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.topsection {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between; /*to have space between them apart */
+  align-items: flex-end; /*  items are aligned at flex end... in the bottom */
+ 
+}
+.topsection h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(113, 65, 65);
+    text-transform: uppercase;
+    
+}
+.topsection h4{
+    font-size: 25px;
+   
+}
+.image{
+   border-radius: 30px;
+   overflow: hidden;
+   border: 5px solid rgb(128, 85, 0);
+   transform: scaleX(-1);
+}
+.image, img{
+    width: 250px;
+    height: 300px;
+    
+}
+.midsection{
+    margin-top: 50px;
+}
+.midsection h2{
+    font-size: 25px;
+    font-weight: 400px;
+    margin-bottom: 20px
+}
+.midsection p{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+.honors{
+    margin-top: 20px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: justify;
+    margin-left: 20px;
+    line-height: 30px;
+}
+.honors li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer{
+    margin-top: 10px;
+ text-align: end;   
+}
